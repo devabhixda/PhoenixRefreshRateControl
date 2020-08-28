@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="sszb.s20.refresh">
+          xmlns:tools="http://schemas.android.com/tools" package="devabhixda.phoenix.refresh">
 
     <uses-permission android:name="android.permission.WRITE_SETTINGS" tools:ignore="ProtectedPermissions"/>
 
@@ -19,9 +19,9 @@
         </activity>
 
         <service
-                android:name=".ControllerTile96"
+                android:name=".ControllerTile60"
                 android:icon="@drawable/ic_refresh_black_24dp"
-                android:label="@string/set_96hz"
+                android:label="@string/set_60hz"
                 android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>

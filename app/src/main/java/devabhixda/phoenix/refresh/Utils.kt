@@ -1,4 +1,4 @@
-package sszb.s20.refresh
+package devabhixda.phoenix.refresh
 
 import android.content.ContentValues
 import android.content.Context
@@ -9,7 +9,7 @@ private const val MIN_REFRESH_RATE = "min_refresh_rate"
 private const val PEAK_REFRESH_RATE = "peak_refresh_rate"
 
 enum class RefreshRate(val refreshRateValue: String) {
-    NinetySix("96.0"),
+    Sixty("60.0"),
     HundredTwenty("120.0")
 }
 

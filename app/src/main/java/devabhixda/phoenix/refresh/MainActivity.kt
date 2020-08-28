@@ -1,4 +1,4 @@
-package sszb.s20.refresh
+package devabhixda.phoenix.refresh
 
 import android.app.Activity
 import android.graphics.Color
@@ -13,7 +13,7 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        set96.setOnClickListener { setRefreshRate(RefreshRate.NinetySix) }
+        set60.setOnClickListener { setRefreshRate(RefreshRate.Sixty) }
         set120.setOnClickListener { setRefreshRate(RefreshRate.HundredTwenty) }
 
         Takt.stock(this.application)
@@ -23,8 +23,4 @@ class MainActivity : Activity() {
             .size(18f)
             .alpha(.8f)
     }
-
-
-
 }
-
