@@ -14,6 +14,8 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         set60.setOnClickListener { setRefreshRate(RefreshRate.Sixty) }
+        set75.setOnClickListener { setRefreshRate(RefreshRate.SeventyFive) }
+        set90.setOnClickListener { setRefreshRate(RefreshRate.Ninety) }
         set120.setOnClickListener { setRefreshRate(RefreshRate.HundredTwenty) }
     }
 }

@@ -17,7 +17,20 @@
             android:text="@string/set_60hz"/>
 
     <Button
-            android:layout_marginTop="8dp"
+            android:id="@+id/set75"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_75hz"/>
+
+    <Button
+            android:id="@+id/set90"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_90hz"/>
+
+    <Button
             android:id="@+id/set120"
             android:textAllCaps="false"
             android:layout_width="wrap_content"
