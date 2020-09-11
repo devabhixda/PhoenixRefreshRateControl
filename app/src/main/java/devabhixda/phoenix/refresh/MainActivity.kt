@@ -15,12 +15,5 @@ class MainActivity : Activity() {
         setContentView(R.layout.activity_main)
         set60.setOnClickListener { setRefreshRate(RefreshRate.Sixty) }
         set120.setOnClickListener { setRefreshRate(RefreshRate.HundredTwenty) }
-
-        Takt.stock(this.application)
-            .seat(Seat.TOP_RIGHT)
-            .interval(233)
-            .color(Color.BLACK)
-            .size(18f)
-            .alpha(.8f)
     }
 }
