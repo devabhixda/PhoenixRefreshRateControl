@@ -10,7 +10,6 @@ private const val PEAK_REFRESH_RATE = "peak_refresh_rate"
 
 enum class RefreshRate(val refreshRateValue: String) {
     Sixty("60.0"),
-    SeventyFive("75.0"),
     Ninety("90.0"),
     HundredTwenty("120.0")
 }
