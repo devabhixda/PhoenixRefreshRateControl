@@ -6,11 +6,11 @@ import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 
 @SuppressLint("NewApi")
-class ControllerTile60 : TileService() {
+class ControllerTile90 : TileService() {
     override fun onStartListening() {
         super.onStartListening()
         val tile = qsTile
-        tile.label = getString(R.string.set_60hz)
+        tile.label = getString(R.string.set_90hz)
         tile.state = Tile.STATE_ACTIVE
         tile.icon = Icon.createWithResource(this, R.drawable.ic_refresh_black_24dp)
         tile.updateTile()
@@ -18,7 +18,7 @@ class ControllerTile60 : TileService() {
 
     override fun onClick() {
         super.onClick()
-        setRefreshRate(RefreshRate.Sixty)
+        setRefreshRate(RefreshRate.Ninety)
     }
 
 }
